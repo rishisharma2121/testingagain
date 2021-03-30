@@ -1,0 +1,31 @@
+{
+ "properties": {
+  "displayName": "TestInitiative",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "5920a55c-b511-49b7-a821-e79397730bd5",
+   "createdOn": "2021-03-30T22:56:35.9453539Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Public network access on Azure Data Factory should be disabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1cf164be-6819-4a50-b8fa-4bcaa4f98fb6",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/dee63f0a-dabb-4c63-9ea2-a8837ecebd53/providers/Microsoft.Authorization/policySetDefinitions/1c1650ce7db646b1a08b1a10",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "1c1650ce7db646b1a08b1a10"
+}
