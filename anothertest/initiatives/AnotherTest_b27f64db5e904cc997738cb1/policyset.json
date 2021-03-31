@@ -1,0 +1,31 @@
+{
+ "properties": {
+  "displayName": "AnotherTest",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "5920a55c-b511-49b7-a821-e79397730bd5",
+   "createdOn": "2021-03-31T16:14:31.2196414Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Vulnerability assessment should be enabled on your Synapse workspaces_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0049a6b3-a662-4f3e-8635-39cf44ace45a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/dee63f0a-dabb-4c63-9ea2-a8837ecebd53/providers/Microsoft.Authorization/policySetDefinitions/b27f64db5e904cc997738cb1",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "b27f64db5e904cc997738cb1"
+}
